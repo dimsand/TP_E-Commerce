@@ -1,4 +1,9 @@
---> Sauvegarde du panier
---> Affichage montant panier + nb articles
---> Page paiement
---> Détail du produit
+## TP PHP : Création d'un site E-Commerce
+
+Possibilité de se connecté via les identifiants :
+- Identifiant : login
+- Mot de passe : password
+
+## Features
+- Récupération des produits par un fichier products.json avec gestion des catégories
+- Gestion des inputs de carte bleus (avec regex)
