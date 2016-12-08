@@ -1,0 +1,42 @@
+{
+  "1":{
+  "id": "1",
+  "name": "Product1",
+  "price": 100.99,
+  "category_id": 5,
+  "brand": "Marque2",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam congue lacinia. Aliquam sit amet hendrerit tortor, a laoreet urna. Donec vulputate at nisl eu semper. Sed euismod consectetur mi, ut malesuada tellus aliquet sed. Duis eu odio dolor. Pellentesque nec sodales ipsum, a sagittis mauris. Pellentesque fermentum lectus quis condimentum suscipit. Nunc aliquam facilisis lectus, sit amet ornare sem vestibulum vel. Morbi porttitor nulla quis nibh ultricies, eget dignissim quam sodales. Morbi vulputate sagittis dui in rhoncus. Sed sed laoreet nibh, non tristique ex. Aliquam ornare id felis non iaculis. Nullam at ante vitae arcu tempor commodo vel sed quam.Nulla faucibus sodales tortor a semper. Integer neque velit, rutrum a diam consectetur, auctor viverra libero. Maecenas cursus tempus eleifend. Vestibulum in justo vitae massa pharetra commodo. Maecenas gravida turpis non sem interdum porta. Curabitur volutpat enim id tincidunt tempor. Donec faucibus ultrices condimentum. Pellentesque lectus ante, laoreet sit amet diam sit amet, maximus suscipit sapien. Suspendisse et nisi dolor. Donec fringilla risus in volutpat pretium. Donec facilisis dignissim rutrum. Nunc eu auctor tellus. Mauris pretium vestibulum nunc nec fringilla. Cras congue blandit sollicitudin."
+  },
+  "2":{
+    "id": "2",
+    "name": "Product2",
+    "price": 5.99,
+    "category_id": 5,
+    "brand": "Marque1",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam congue lacinia. Aliquam sit amet hendrerit tortor, a laoreet urna. Donec vulputate at nisl eu semper. Sed euismod consectetur mi, ut malesuada tellus aliquet sed. Duis eu odio dolor. Pellentesque nec sodales ipsum, a sagittis mauris. Pellentesque fermentum lectus quis condimentum suscipit. Nunc aliquam facilisis lectus, sit amet ornare sem vestibulum vel. Morbi porttitor nulla quis nibh ultricies, eget dignissim quam sodales. Morbi vulputate sagittis dui in rhoncus. Sed sed laoreet nibh, non tristique ex. Aliquam ornare id felis non iaculis. Nullam at ante vitae arcu tempor commodo vel sed quam.Nulla faucibus sodales tortor a semper. Integer neque velit, rutrum a diam consectetur, auctor viverra libero. Maecenas cursus tempus eleifend. Vestibulum in justo vitae massa pharetra commodo. Maecenas gravida turpis non sem interdum porta. Curabitur volutpat enim id tincidunt tempor. Donec faucibus ultrices condimentum. Pellentesque lectus ante, laoreet sit amet diam sit amet, maximus suscipit sapien. Suspendisse et nisi dolor. Donec fringilla risus in volutpat pretium. Donec facilisis dignissim rutrum. Nunc eu auctor tellus. Mauris pretium vestibulum nunc nec fringilla. Cras congue blandit sollicitudin."
+  },
+  "3":{
+    "id": "3",
+    "name": "Product3",
+    "price": 10,
+    "category_id": 1,
+    "brand": "Marque3",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam congue lacinia. Aliquam sit amet hendrerit tortor, a laoreet urna. Donec vulputate at nisl eu semper. Sed euismod consectetur mi, ut malesuada tellus aliquet sed. Duis eu odio dolor. Pellentesque nec sodales ipsum, a sagittis mauris. Pellentesque fermentum lectus quis condimentum suscipit. Nunc aliquam facilisis lectus, sit amet ornare sem vestibulum vel. Morbi porttitor nulla quis nibh ultricies, eget dignissim quam sodales. Morbi vulputate sagittis dui in rhoncus. Sed sed laoreet nibh, non tristique ex. Aliquam ornare id felis non iaculis. Nullam at ante vitae arcu tempor commodo vel sed quam.Nulla faucibus sodales tortor a semper. Integer neque velit, rutrum a diam consectetur, auctor viverra libero. Maecenas cursus tempus eleifend. Vestibulum in justo vitae massa pharetra commodo. Maecenas gravida turpis non sem interdum porta. Curabitur volutpat enim id tincidunt tempor. Donec faucibus ultrices condimentum. Pellentesque lectus ante, laoreet sit amet diam sit amet, maximus suscipit sapien. Suspendisse et nisi dolor. Donec fringilla risus in volutpat pretium. Donec facilisis dignissim rutrum. Nunc eu auctor tellus. Mauris pretium vestibulum nunc nec fringilla. Cras congue blandit sollicitudin."
+  },
+  "4":{
+    "id": "4",
+    "name": "Product4",
+    "price": 55.19,
+    "category_id": 2,
+    "brand": "Marque4",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam congue lacinia. Aliquam sit amet hendrerit tortor, a laoreet urna. Donec vulputate at nisl eu semper. Sed euismod consectetur mi, ut malesuada tellus aliquet sed. Duis eu odio dolor. Pellentesque nec sodales ipsum, a sagittis mauris. Pellentesque fermentum lectus quis condimentum suscipit. Nunc aliquam facilisis lectus, sit amet ornare sem vestibulum vel. Morbi porttitor nulla quis nibh ultricies, eget dignissim quam sodales. Morbi vulputate sagittis dui in rhoncus. Sed sed laoreet nibh, non tristique ex. Aliquam ornare id felis non iaculis. Nullam at ante vitae arcu tempor commodo vel sed quam.Nulla faucibus sodales tortor a semper. Integer neque velit, rutrum a diam consectetur, auctor viverra libero. Maecenas cursus tempus eleifend. Vestibulum in justo vitae massa pharetra commodo. Maecenas gravida turpis non sem interdum porta. Curabitur volutpat enim id tincidunt tempor. Donec faucibus ultrices condimentum. Pellentesque lectus ante, laoreet sit amet diam sit amet, maximus suscipit sapien. Suspendisse et nisi dolor. Donec fringilla risus in volutpat pretium. Donec facilisis dignissim rutrum. Nunc eu auctor tellus. Mauris pretium vestibulum nunc nec fringilla. Cras congue blandit sollicitudin."
+  },
+  "5":{
+    "id": "5",
+    "name": "Product5",
+    "price": 1040.99,
+    "category_id": 2,
+    "brand": "Marque3",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam congue lacinia. Aliquam sit amet hendrerit tortor, a laoreet urna. Donec vulputate at nisl eu semper. Sed euismod consectetur mi, ut malesuada tellus aliquet sed. Duis eu odio dolor. Pellentesque nec sodales ipsum, a sagittis mauris. Pellentesque fermentum lectus quis condimentum suscipit. Nunc aliquam facilisis lectus, sit amet ornare sem vestibulum vel. Morbi porttitor nulla quis nibh ultricies, eget dignissim quam sodales. Morbi vulputate sagittis dui in rhoncus. Sed sed laoreet nibh, non tristique ex. Aliquam ornare id felis non iaculis. Nullam at ante vitae arcu tempor commodo vel sed quam.Nulla faucibus sodales tortor a semper. Integer neque velit, rutrum a diam consectetur, auctor viverra libero. Maecenas cursus tempus eleifend. Vestibulum in justo vitae massa pharetra commodo. Maecenas gravida turpis non sem interdum porta. Curabitur volutpat enim id tincidunt tempor. Donec faucibus ultrices condimentum. Pellentesque lectus ante, laoreet sit amet diam sit amet, maximus suscipit sapien. Suspendisse et nisi dolor. Donec fringilla risus in volutpat pretium. Donec facilisis dignissim rutrum. Nunc eu auctor tellus. Mauris pretium vestibulum nunc nec fringilla. Cras congue blandit sollicitudin."
+  }
+}

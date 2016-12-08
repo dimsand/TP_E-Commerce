@@ -1,0 +1,334 @@
+a.btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn{
+    color: #fff;
+    padding: 10px;
+    background-color: #37474f;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: solid #37474f 1px;
+    background-color: #90a4ae;
+    color: #37474f;
+}
+
+.product_more{
+  text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #78909c;
+    border: solid #4d565a 2px;
+    padding: 12px;
+}
+
+.brand{
+    margin-left:15px;
+    font-size: 35px;
+    color: #fff;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+nav{
+    margin-right: 15px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 5px
+}
+
+.logo_site{
+    background-color: black;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 98%;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.user_info{
+    margin-right: 10px;
+}
+
+.list-products{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.flash_msg{
+  width: 70%;
+  margin: 30px 15% 0 15%;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.error{
+  background-color: #f2dede;
+  border: solid rgba(245, 0, 0, 0.69) 1px;
+}
+
+.success{
+  background-color: #dff0d8;
+  border: solid green 1px;
+}
+
+.info{
+  background-color: #2196F3;
+  border: solid blue 1px;
+  color: #fff;
+}
+
+.login{
+  width: 20%;
+  margin: auto;
+  background-color: rgba(51, 51, 51, 0.98);
+  padding: 30px;
+  margin-top: 80px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.inputs{
+  margin-bottom: 20px;
+}
+
+.inputs input{
+  padding: 8px;
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+}
+
+.inline-2{
+  float: left;
+  width: 50%;
+}
+
+.table_cart{
+  width: 50%;
+  margin: 60px auto;
+}
+
+.paiement{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+span.brand{
+  font-size: 10px;
+  color:rgba(102, 102, 102, 0.81);
+}
+
+.btn_gros{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.ligne_total{
+  font-weight: bold;
+}
+
+.product_details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.product_details .presentation_product{
+  margin-left: 20px;
+}
+
+.price_product{
+  border: solid #333 1px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.add_cart_product{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.confirm_paiement{
+  width: 50%;
+  margin: 60px auto;
+}
+
+/*
+*   ProgressBar Steps Panier
+*/
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+  padding-left: 0;
+}
+#progressbar li {
+	list-style-type: none;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 25%;
+	float: left;
+	position: relative;
+  text-align: center;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none;
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+	background: #27AE60;
+	color: white;
+}
+
+
+/*!
+// CSS only Responsive Tables
+// http://dbushell.com/2016/03/04/css-only-responsive-tables/
+// by David Bushell
+*/
+
+.rtable {
+  /*!
+  // IE needs inline-block to position scrolling shadows otherwise use:
+  // display: block;
+  // max-width: min-content;
+  */
+  /*display: inline-block;*/
+  width: 100%;
+  vertical-align: top;
+  max-width: 100%;
+
+  overflow-x: auto;
+
+  // optional - looks better for small cell values
+  white-space: nowrap;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.rtable tbody {
+  // optional - enable iOS momentum scrolling
+  -webkit-overflow-scrolling: touch;
+
+  // scrolling shadows
+  background: radial-gradient(left, ellipse, rgba(0,0,0, .2) 0%, rgba(0,0,0, 0) 75%) 0 center,
+              radial-gradient(right, ellipse, rgba(0,0,0, .2) 0%, rgba(0,0,0, 0) 75%) 100% center;
+  background-size: 10px 100%, 10px 100%;
+  background-attachment: scroll, scroll;
+  background-repeat: no-repeat;
+}
+
+// change these gradients from white to your background colour if it differs
+// gradient on the first cells to hide the left shadow
+.rtable td:first-child{
+  background-image: linear-gradient(to right, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: 20px 100%;
+}
+
+// gradient on the last cells to hide the right shadow
+.rtable td:last-child{
+  background-image: linear-gradient(to left, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 20px 100%;
+}
+
+.rtable th {
+  font-size: 11px;
+  text-align: left;
+  text-transform: uppercase;
+  background: #f2f0e6;
+}
+
+.rtable th,
+.rtable td {
+  padding: 6px 12px;
+  border: 1px solid #d9d7ce;
+}
+
+.rtable tr:nth-child(even) {
+  background: #dedede;
+}
